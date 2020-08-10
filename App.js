@@ -8,7 +8,7 @@
 import { Provider } from 'react-redux'
 import { store } from './redux/app-redux';
 import React from 'react';
-import ReduxExampleScreen from './Screens/ReduxExampleScreen'
+import ReduxExampleScreen from './screens/ReduxExampleScreen'
 import { Text, View } from 'react-native';
 import AsyncStorage from '@react-native-community/async-storage';
 

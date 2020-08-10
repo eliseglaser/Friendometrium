@@ -1,6 +1,5 @@
 import { createStore, applyMiddleware } from 'redux';
 import thunkMiddleware from 'redux-thunk';
-import db from '.././config/Firebase';
 import * as firebase from 'firebase';
 import AsyncStorage from '@react-native-community/async-storage';
 
