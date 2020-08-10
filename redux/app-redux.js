@@ -1,7 +1,10 @@
 import { createStore, applyMiddleware } from 'redux';
 import thunkMiddleware from 'redux-thunk';
-import * as firebase from 'firebase';
-import AsyncStorage from '@react-native-community/async-storage';
+import firebase from '@react-native-firebase/app';
+import database from '@react-native-firebase/database';
+
+
+const reference = database().ref('Person');
 
 //
 // Initial State...
@@ -40,7 +43,7 @@ const setPersonData = (personData) => {
 
 const watchPersonData = () => {
   return function(dispatch) {
-    firebase.database().ref('Person').on('value', function(snapshot)
+    reference.on('value', function(snapshot)
     {
         var personData = snapshot.val();
         var actionSetPersonData = setPersonData(personData);
