@@ -115,6 +115,8 @@ PODS:
     - GoogleUtilities/Environment
     - GoogleUtilities/Logger
     - GoogleUtilities/Network
+  - GoogleDataTransport (7.1.0):
+    - nanopb (~> 1.30905.0)
   - GoogleUtilities/Environment (6.7.1):
     - PromisesObjC (~> 1.2)
   - GoogleUtilities/Logger (6.7.1):
