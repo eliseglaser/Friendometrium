@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "651833431828",
+    "firebase_url": "https://friendometrium-83131.firebaseio.com",
+    "project_id": "friendometrium-83131",
+    "storage_bucket": "friendometrium-83131.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:651833431828:android:ac37dde106496ded3c1401",
+        "android_client_info": {
+          "package_name": "com.grapefruittech.friendometrium"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "651833431828-5jmnidpgi63mt50vbi45jntsbpv42ng8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDPA4mhoZflSz4qAU3g94F6i6Tr9jUbKD4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "651833431828-5jmnidpgi63mt50vbi45jntsbpv42ng8.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "651833431828-ltmti65lde211rtb7feg6lt6281vav4r.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "org.reactjs.native.example.Friendometrium"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
