@@ -20,6 +20,10 @@
 		5F45C6B6D5072BC7E8F02F74 /* libPods-Friendometrium-tvOSTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = AF8DA6BCBE0CFA0FFE33B0A9 /* libPods-Friendometrium-tvOSTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 		C71CD5DE29506F3BCE40153A /* libPods-Friendometrium-tvOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BA8F5993C8B62D1357964D75 /* libPods-Friendometrium-tvOS.a */; };
+		F5596C5A25548E0C0098C79A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5596C5925548E0C0098C79A /* GoogleService-Info.plist */; };
+		F5596C5B25548E0C0098C79A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5596C5925548E0C0098C79A /* GoogleService-Info.plist */; };
+		F5596C5C25548E0C0098C79A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5596C5925548E0C0098C79A /* GoogleService-Info.plist */; };
+		F5596C5D25548E0C0098C79A /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F5596C5925548E0C0098C79A /* GoogleService-Info.plist */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +71,7 @@
 		DB0BFF49876EFE99CB35DF41 /* Pods-Friendometrium-tvOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Friendometrium-tvOSTests.release.xcconfig"; path = "Target Support Files/Pods-Friendometrium-tvOSTests/Pods-Friendometrium-tvOSTests.release.xcconfig"; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 		ED2971642150620600B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = Platforms/AppleTVOS.platform/Developer/SDKs/AppleTVOS12.0.sdk/System/Library/Frameworks/JavaScriptCore.framework; sourceTree = DEVELOPER_DIR; };
+		F5596C5925548E0C0098C79A /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -174,6 +179,7 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				F5596C5925548E0C0098C79A /* GoogleService-Info.plist */,
 				13B07FAE1A68108700A75B9A /* Friendometrium */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* FriendometriumTests */,
@@ -333,6 +339,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5596C5B25548E0C0098C79A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -342,6 +349,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				F5596C5A25548E0C0098C79A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +358,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D02E4BD1E0B4A84006451C7 /* Images.xcassets in Resources */,
+				F5596C5C25548E0C0098C79A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -357,6 +366,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F5596C5D25548E0C0098C79A /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
